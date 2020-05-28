@@ -2,14 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="69" started-at="2020-05-10T22:09:04Z" finished-at="2020-05-10T22:09:05Z">
+  <suite name="Default suite" duration-ms="12433" started-at="2020-05-22T18:32:03Z" finished-at="2020-05-22T18:32:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="69" started-at="2020-05-10T22:09:04Z" finished-at="2020-05-10T22:09:05Z">
-      <class name="com.clarivate.unittests.Test3">
-        <test-method status="PASS" signature="b()[pri:0, instance:com.clarivate.unittests.Test3@1b52d12]" name="b" duration-ms="43" started-at="2020-05-10T22:09:04Z" finished-at="2020-05-10T22:09:05Z">
-        </test-method> <!-- b -->
-      </class> <!-- com.clarivate.unittests.Test3 -->
+    <test name="Default test" duration-ms="12433" started-at="2020-05-22T18:32:03Z" finished-at="2020-05-22T18:32:16Z">
+      <class name="com.testCases.TC1">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.testCases.TC1@1b6d4ae]" name="invokeBrowser" is-config="true" duration-ms="10323" started-at="2020-05-22T18:31:53Z" finished-at="2020-05-22T18:32:03Z">
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="TestCase1()[pri:0, instance:com.testCases.TC1@1b6d4ae]" name="TestCase1" duration-ms="12411" started-at="2020-05-22T18:32:03Z" finished-at="2020-05-22T18:32:16Z">
+        </test-method> <!-- TestCase1 -->
+      </class> <!-- com.testCases.TC1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

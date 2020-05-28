@@ -17,7 +17,7 @@ public class LoginPage extends Webutils {
 		// TODO Auto-generated constructor stub
 	}
 
-	public void launchOnboardingUrl(String env) {
+	public LoginPage launchOnboardingUrl(String env) {
 		switch (env) {
 		case "QA":
 			navigateUrl(read.getProperty("URL"));
@@ -29,21 +29,25 @@ public class LoginPage extends Webutils {
 			navigateUrl(read.getProperty("Onboarding"));
 			break;
 		}
+		return this;
 
 	}
 
-	public void enterUserName(String text) {
+	public LoginPage enterUserName(String text) {
 		enterTextinTextbox(getElement(Username), text);
+		return this;
 	}
 	
-	public void enterPassword(String text) {
+	public LoginPage enterPassword(String text) {
 		enterTextinTextbox(getElement(Password), text);
+		return this;
 	}
 
-	public void clickOnLoginBtnb()
+	public LoginPage clickOnLoginBtnb()
 
 	{
 		getElement(loginBtn).click();
+		return this;
 	}
 
 	

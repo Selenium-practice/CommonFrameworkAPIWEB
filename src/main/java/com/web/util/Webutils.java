@@ -57,7 +57,7 @@ public class Webutils {
 	}
 	/**
 	 * Method Name: isElementExist Description: to check whether element is present
-	 * on page. Author: Satya
+	 * on page. Author: Manimaran
 	 * 
 	 * @param element
 	 * @return boolean
@@ -83,7 +83,7 @@ public class Webutils {
 	}
 
 	/**
-	 * Method Name: isEnabled Author: Satya Return type: none Parameters: element
+	 * Method Name: isEnabled Author: Manimaran Return type: none Parameters: element
 	 * Description: to check whether element is enabled.
 	 */
 
@@ -109,7 +109,7 @@ public class Webutils {
 	}
 
 	/********************************************************
-	 * Method Name: clickElement Author: Satya Return type: none Parameters: element
+	 * Method Name: clickElement Author: Manimaran Return type: none Parameters: element
 	 * Description: to click the element.
 	 * 
 	 ********************************************************/
@@ -128,7 +128,7 @@ public class Webutils {
 	}
 
 	/********************************************************
-	 * Method Name: selectFromDropdown_Using_index Author: Satya Return type: none
+	 * Method Name: selectFromDropdown_Using_index Author: Manimaran Return type: none
 	 * Parameters: element, index Description: to select value from dropdown using
 	 * index.
 	 * 
@@ -143,7 +143,7 @@ public class Webutils {
 	}
 
 	/********************************************************
-	 * Method Name: selectFromDropdown_Using_Value Author: Satya Return type: none
+	 * Method Name: selectFromDropdown_Using_Value Author: Manimaran Return type: none
 	 * Parameters: element, value Description: to select value from dropdown using
 	 * Value.
 	 * 
@@ -158,7 +158,7 @@ public class Webutils {
 	}
 
 	/********************************************************
-	 * Method Name: selectFromDropdown_Using_Text Author: Satya Return type: none
+	 * Method Name: selectFromDropdown_Using_Text Author: Manimaran Return type: none
 	 * Parameters: element, text Description: to select value from dropdown using
 	 * Visible Text.
 	 * 
@@ -173,7 +173,7 @@ public class Webutils {
 	}
 
 	/********************************************************
-	 * Method Name: waitForMilliSeconds Author: Satya Return type: none Parameters:
+	 * Method Name: waitForMilliSeconds Author: Manimaran Return type: none Parameters:
 	 * number Description: wait for control to load for specified amount of time.
 	 * 
 	 ********************************************************/
@@ -188,7 +188,7 @@ public class Webutils {
 	}
 
 	/**
-	 * Author: Satya This method enters the given text in the text box
+	 * Author: Manimaran This method enters the given text in the text box
 	 * 
 	 * @param element
 	 *            - text box
@@ -201,7 +201,7 @@ public class Webutils {
 	}
 
 	/**
-	 * * Method Name: uploadFile Author: Satya Return type: none Parameters:
+	 * * Method Name: uploadFile Author: Manimaran Return type: none Parameters:
 	 * uploadfileelement, filepath, buttonelement Description: to upload file.
 	 * 
 	 * @param uploadfileelement
@@ -222,12 +222,12 @@ public class Webutils {
 	}
 
 	/**
-	 * Method Name: initiateBrowser Author: Satya Return type: none Parameters: none
+	 * Method Name: initiateBrowser Author: Manimaran Return type: none Parameters: none
 	 * Description: to launch the browser.
 	 * 
 	 * @param browser
 	 */
-	public void initiateBrowser(String browser) {
+	public static void initiateBrowser(String browser) {
 		String os = System.getProperty("os.name").toLowerCase();
 		String current_dir = System.getProperty("user.dir");
 		System.out.println(os);
@@ -271,7 +271,7 @@ public class Webutils {
 	}
 
 	/**
-	 * Method Name: getElement Author: Satya Return type: none Parameters: element
+	 * Method Name: getElement Author: Manimaran Return type: none Parameters: element
 	 * Description: to click the element.
 	 * 
 	 * @param locator
@@ -638,7 +638,7 @@ public class Webutils {
 	}
 	
 	/**
-	 * Method Name: getElement Author: Satya Return type: none Parameters: element
+	 * Method Name: getElement Author: Manimaran Return type: none Parameters: element
 	 * Description: to click the element.
 	 * 
 	 * @param locator

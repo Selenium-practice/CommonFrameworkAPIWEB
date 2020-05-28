@@ -82,7 +82,7 @@ public class XmlUtils {
 	 * 
 	 * @param filename
 	 * @param nodeName
-	 * @param attrname
+	 * @param attrname+
 	 * @return
 	 */
 	

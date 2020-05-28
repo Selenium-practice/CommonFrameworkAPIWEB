@@ -12,9 +12,9 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-glue = {"com.clarivate.stepdefinition"},
+glue = {"com.stepdefinition"},
 features = {"src/test/resources/com/Project/features"},
-tags = {"@tag4"},
+tags = {"@tag2"},
 plugin = {"com.cucumber.listener.ExtentCucumberFormatter:output/report.html"}
 //monochrome = true
 )
@@ -31,7 +31,7 @@ public class TestRunner {
 	    Reporter.setSystemInfo("Selenium", "3.7.0");
 	    Reporter.setSystemInfo("Maven", "3.5.2");
 	    Reporter.setSystemInfo("Java Version", "1.8.0_151");
-	   // Reporter.addStepLog("I am hareesh executing");
+	   
 	}
 	
 	
