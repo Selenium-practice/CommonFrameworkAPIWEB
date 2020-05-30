@@ -371,7 +371,7 @@ public class Webutils {
 	}
 
 	/**
-	 * Author : Mythili M This THis method waits for the page to load
+	 * Author : ManimaranThis THis method waits for the page to load
 	 * 
 	 * @param timeout
 	 *            - time to wait
@@ -395,7 +395,7 @@ public class Webutils {
 	}
 
 	/**
-	 * Author : Mythili M This THis method waits till the given Object disappears.
+	 * Author : ManimaranThis THis method waits till the given Object disappears.
 	 * 
 	 * @param locator
 	 *            - By Locator
@@ -411,7 +411,7 @@ public class Webutils {
 	}
 
 	/**
-	 * Author : Mythili M This THis method waits till the given Object disappears.
+	 * Author : ManimaranThis THis method waits till the given Object disappears.
 	 * 
 	 * @param locator
 	 *            - By Locator
@@ -427,7 +427,7 @@ public class Webutils {
 	}
 
 	/**
-	 * Author : Mythili M This method returns the JavaScript executor object
+	 * Author : ManimaranThis method returns the JavaScript executor object
 	 * 
 	 * @return
 	 */
@@ -436,7 +436,7 @@ public class Webutils {
 	}
 
 	/**
-	 * Author : Mythili M THis method clicks on an element using Java script.
+	 * Author : ManimaranTHis method clicks on an element using Java script.
 	 * 
 	 * @param element
 	 */
@@ -456,7 +456,7 @@ public class Webutils {
 	}
 
 	/**
-	 * Author : Mythili M This method switches to particular window by title
+	 * Author : ManimaranThis method switches to particular window by title
 	 * 
 	 * @param title
 	 *            - Browser Title
@@ -472,14 +472,14 @@ public class Webutils {
 	}
 
 	/**
-	 * Author : Mythili M Switches to default window
+	 * Author : ManimaranSwitches to default window
 	 */
 	public void switchToDefaultWindow() {
 
 	}
 
 	/**
-	 * Author : Mythili M This method closes current browser
+	 * Author : ManimaranThis method closes current browser
 	 */
 	public void closeWindow() {
 		getDriver().close();
@@ -487,7 +487,7 @@ public class Webutils {
 	}
 
 	/**
-	 * Author : Mythili M This method closes all browsers
+	 * Author : ManimaranThis method closes all browsers
 	 */
 	public void quitBrowsers() {
 
@@ -495,7 +495,7 @@ public class Webutils {
 	}
 
 	/**
-	 * Author : Mythili M This method scrolls and focuses on the WebElement
+	 * Author : ManimaranThis method scrolls and focuses on the WebElement
 	 * 
 	 * @param element
 	 *            - WebElement
@@ -508,7 +508,7 @@ public class Webutils {
 	}
 
 	/**
-	 * Author : Mythili M This method scrolls and focuses on the WebElement
+	 * Author : ManimaranThis method scrolls and focuses on the WebElement
 	 * 
 	 * @param element
 	 *            - By Locator
@@ -529,7 +529,7 @@ public class Webutils {
 
 	// Following methods were developed on Date : 02/28/2019
 	/**
-	 * Author : Mythili M This method accepts the Alert/Popup
+	 * Author : ManimaranThis method accepts the Alert/Popup
 	 */
 	public void acceptAlert() {
 		Alert popUp = null;
@@ -544,7 +544,7 @@ public class Webutils {
 	}
 
 	/**
-	 * Author : Mythili M This method dismisses the Alert/Popup
+	 * Author : ManimaranThis method dismisses the Alert/Popup
 	 */
 	public void dismissAlert() {
 		Alert popUp = null;
@@ -558,7 +558,7 @@ public class Webutils {
 	}
 
 	/**
-	 * Author : Mythili M This method returns the Alert/Popup text
+	 * Author : ManimaranThis method returns the Alert/Popup text
 	 */
 	public String getAlertText() {
 		Alert popUp = null;
@@ -572,7 +572,7 @@ public class Webutils {
 	}
 
 	/**
-	 * Author : Mythili M This method double clicks over the given WebElement
+	 * Author : ManimaranThis method double clicks over the given WebElement
 	 * 
 	 * @param element
 	 *            - WebElement
@@ -583,7 +583,7 @@ public class Webutils {
 	}
 
 	/**
-	 * Author : Mythili M This method returns the current Page Title
+	 * Author : ManimaranThis method returns the current Page Title
 	 * 
 	 * @return - Page Title
 	 */
@@ -592,7 +592,7 @@ public class Webutils {
 	}
 
 	/**
-	 * Author : Mythili M This method switches to last window
+	 * Author : ManimaranThis method switches to last window
 	 * 
 	 * @param title
 	 *            - Browser Title
@@ -614,7 +614,7 @@ public class Webutils {
 	}
 
 	/**
-	 * Author : Mythili M This method double clicks over the given WebElement using
+	 * Author : ManimaranThis method double clicks over the given WebElement using
 	 * Java Script
 	 * 
 	 * @param element

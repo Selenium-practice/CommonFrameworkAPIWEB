@@ -13,8 +13,6 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFTable;
 import org.openxmlformats.schemas.spreadsheetml.x2006.main.CTTable;
 
-import com.excel.utils.SpreadsheetReader;
-
 public class SpreadSheetBaseFunction extends SpreadsheetReader {
 
 	public static String subCategory;

@@ -2,7 +2,6 @@ package com.excel.utils;
 
 import java.io.File;
 import java.io.FileInputStream;
-
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
@@ -15,9 +14,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import com.excel.utils.SpreadSheetBaseFunction;
-
-public class FetchTestData extends SpreadSheetBaseFunction {
+public class FetchTestData  {
 
 	String filename = "./src/test/java/data/DFJobsReport.xlsx";
 	String filename1 = "./src/test/java/data/DFReports.xlsx";
@@ -555,7 +552,7 @@ public class FetchTestData extends SpreadSheetBaseFunction {
 		XSSFWorkbook wb = null;
 		XSSFSheet sh = null;
 		XSSFRow r = null;
-		XSSFRow rr = null;
+		//XSSFRow rr = null;
 
 		File file = null;
 		try {

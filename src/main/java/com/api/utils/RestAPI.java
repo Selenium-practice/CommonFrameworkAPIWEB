@@ -1,14 +1,16 @@
-package com.api.utils;
+/*package com.api.utils;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Map;
 import java.util.Properties;
+
 import io.restassured.RestAssured;
 import io.restassured.authentication.BasicAuthScheme;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+
 
 
 public class RestAPI {
@@ -18,14 +20,14 @@ public class RestAPI {
 	private static String password;
 	private RequestSpecification request;
 	private Response response;
-	/**
+	*//**
 	 * 
 	 * @param url
 	 * @param username
 	 * @param password
 	 * @param paramMAp
 	 * @return
-	 */
+	 *//*
 	
 	public RequestSpecification getRequestWithParams(String env,Map<String, String> paramMAp)
 	{
@@ -56,14 +58,14 @@ public class RestAPI {
 	
 	
 	
-	/**
+	*//**
 	 * 
 	 * @param url
 	 * @param username
 	 * @param password
 	 * @param headers
 	 * @return
-	 */
+	 *//*
 	
 	
 	public RequestSpecification getRequestWithHeaders(String url,String username,String password,Map<String, String> headers)
@@ -96,11 +98,11 @@ public class RestAPI {
 	}
 	
 	
-	/**
+	*//**
 	 * 
 	 * @param endpoint
 	 * @return
-	 */
+	 *//*
 	
 	public Response getResponse(String endpoint)
 	{
@@ -111,10 +113,10 @@ public class RestAPI {
 	}
 	
 	
-	/**
+	*//**
 	 * 
 	 * @return
-	 */
+	 *//*
 	
 	public int getStatusCode()
 	{
@@ -123,10 +125,10 @@ public class RestAPI {
 		
 	}
 	
-	/**
+	*//**
 	 * 
 	 * @return
-	 */
+	 *//*
 	
 	public String getMessage()
 	{
@@ -136,3 +138,4 @@ public class RestAPI {
 
 
 }
+*/
